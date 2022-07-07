@@ -1,0 +1,10 @@
+a=eval(input())
+b=eval(input())
+c=eval(input())
+d=eval(input())
+e=eval(input())
+sum=0
+sum=a+b+c+d+e
+print('{} {} {} {} {}'.format(a,b,c,d,e))
+print("Sum = %.1f" %sum)
+print("Average = %.1f" %(sum/5))
