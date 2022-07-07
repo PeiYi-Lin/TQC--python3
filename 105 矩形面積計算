@@ -1,0 +1,6 @@
+w=eval(input())
+h=eval(input())
+print("Height = %.2f" %h)
+print("Width = %.2f" %w)
+print("Perimeter = %.2f" %((w+h)*2))
+print("Aera = %.2f" %(w*h))
