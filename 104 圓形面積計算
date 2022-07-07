@@ -1,0 +1,7 @@
+import math
+n=eval(input())
+per=n*2*math.pi
+are=n**2*math.pi
+print("Radius = %.2f" %n)
+print("Perimerter = %.2f" %per)
+print("Aera = %.2f" %are)
