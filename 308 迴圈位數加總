@@ -1,0 +1,9 @@
+u=0
+n=eval(input())
+for i in range(n):
+    a=eval(input())
+    aa=a
+    while aa!=0:
+        su+=aa%10
+        aa//=10
+print("Sum of all digits of %d is %d" %(a,su))
